@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="xamltest.ColorView">
+<!--	<ContentView.Content>
+	</ContentView.Content>-->
+
+	<Frame OutlineColor="Accent">
+		<StackLayout Orientation="Horizontal">
+			<BoxView x:Name="boxView"
+					WidthRequest = "70"
+					HeightRequest = "70">
+			</BoxView>
+
+			<StackLayout>
+				<Label x:Name="colorNameLabel"
+					FontSize="Large"
+					VerticalOptions = "CenterAndExpand">
+				</Label>
+
+				<Label x:Name="colorValueLabel" VerticalOptions = "CenterAndExpand">
+				</Label>
+
+			</StackLayout>
+		</StackLayout>
+	</Frame>
+</ContentView>
